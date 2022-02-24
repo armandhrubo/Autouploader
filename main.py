@@ -17,8 +17,8 @@ def authentication():
 
 drive = authentication()
 
-drive_path = '1P0KNZD4CwXcmC0-kTlcrdUaUph55BrWg'        # YOUR GOOGLE DRIVE PATH URL
-folder = r"C:\Users\arman\Downloads\Clips for Tiktok"
+drive_path = ''        # YOUR GOOGLE DRIVE PATH URL
+folder = r""           # DIRECTORY OF THE RESPECTIVE FOLDER YOU WANT TO UPLOAD TO GOOGLE DRIVE
 
 for file in os.listdir(folder):
 
